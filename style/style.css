@@ -1,0 +1,171 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.fb {
+  width: 100%;
+  max-width: 1000px;
+}
+.fb .header {
+  background-color: #4169E1;
+}
+.fb .header .icon {
+  height: 30px;
+  background-color: #fff;
+  border-radius: 10%;
+  margin: 10px;
+}
+.fb .header input {
+  position: absolute;
+  height: 30px;
+  width: 300px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 0px;
+  border-radius: 3px;
+  padding: 0px 10px;
+  background-color: #2D4273;
+  color: #fff;
+}
+.fb .header input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.fb .background {
+  height: 300px;
+  overflow: hidden;
+}
+.fb .background .back_img {
+  width: 1000px;
+  left: 50%;
+  top: -50%;
+  transform: translateX(-50%);
+}
+.fb .content {
+  height: 15%;
+}
+.fb .content .name {
+  position: absolute;
+  left: calc( 30px + 170px );
+  top: -55%;
+  color: #ffffff;
+  font-size: 25px;
+  border-width: 0px;
+}
+.fb .content .name .nametxt {
+  margin: 0px;
+  border-width: 0px;
+}
+.fb .content .selfish {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border: solid 5px #fff;
+  left: 30px;
+  top: -80%;
+}
+.fb .content .selfish .self_img {
+  height: 150px;
+  left: -40px;
+}
+.fb .content .discribe {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.fb .content .discribe .ul .li {
+  list-style: none;
+  margin: 5px 0px;
+}
+.fb .content .discribe .ul .li::before {
+  width: 20px;
+  height: 20px;
+  left: -25px;
+}
+.fb .content .discribe .ul .li1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("https://media.istockphoto.com/id/1176590093/zh/%E5%90%91%E9%87%8F/%E5%85%AC%E4%BA%8B%E5%8C%85%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E5%B9%B3%E9%9D%A2%E6%8F%92%E5%9C%96%E5%90%91%E9%87%8F%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E7%AC%A6%E8%99%9F%E5%92%8C%E5%90%91%E9%87%8F.jpg?s=170667a&w=0&k=20&c=Xk4k1qliMykBtGuHfjju1Dnbk98rHnSqDHLrwsdnboE=");
+  background-size: cover;
+  background-position: center;
+}
+.fb .content .discribe .ul .li2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("https://media.istockphoto.com/id/1176590093/zh/%E5%90%91%E9%87%8F/%E5%85%AC%E4%BA%8B%E5%8C%85%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E5%B9%B3%E9%9D%A2%E6%8F%92%E5%9C%96%E5%90%91%E9%87%8F%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E7%AC%A6%E8%99%9F%E5%92%8C%E5%90%91%E9%87%8F.jpg?s=170667a&w=0&k=20&c=Xk4k1qliMykBtGuHfjju1Dnbk98rHnSqDHLrwsdnboE=");
+  background-size: cover;
+  background-position: center;
+}
+.fb .content .discribe .ul .li3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("https://media.istockphoto.com/id/1176590093/zh/%E5%90%91%E9%87%8F/%E5%85%AC%E4%BA%8B%E5%8C%85%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E5%B9%B3%E9%9D%A2%E6%8F%92%E5%9C%96%E5%90%91%E9%87%8F%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E7%AC%A6%E8%99%9F%E5%92%8C%E5%90%91%E9%87%8F.jpg?s=170667a&w=0&k=20&c=Xk4k1qliMykBtGuHfjju1Dnbk98rHnSqDHLrwsdnboE=");
+  background-size: cover;
+  background-position: center;
+}
+.fb .content .discribe .ul .li4::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("https://media.istockphoto.com/id/1176590093/zh/%E5%90%91%E9%87%8F/%E5%85%AC%E4%BA%8B%E5%8C%85%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E5%B9%B3%E9%9D%A2%E6%8F%92%E5%9C%96%E5%90%91%E9%87%8F%E5%9C%96%E7%A4%BA%E5%85%AC%E4%BA%8B%E5%8C%85%E7%AC%A6%E8%99%9F%E5%92%8C%E5%90%91%E9%87%8F.jpg?s=170667a&w=0&k=20&c=Xk4k1qliMykBtGuHfjju1Dnbk98rHnSqDHLrwsdnboE=");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 700px) {
+  .fb {
+    min-width: 500px;
+  }
+  .fb .header .icon {
+    height: 40px;
+    margin: 15px;
+  }
+  .fb .header input {
+    height: 40px;
+    width: 80%;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 0px 15px;
+  }
+  .fb .content {
+    width: 100%;
+  }
+  .fb .content .name {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    color: #333;
+  }
+  .fb .content .selfish {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -80%;
+  }
+  .fb .content .discribe {
+    top: 150px;
+    font-size: 25px;
+    left: 60px;
+  }
+  .fb .content .discribe .ul .li::before {
+    width: 30px;
+    height: 30px;
+    left: -35px;
+  }
+}
